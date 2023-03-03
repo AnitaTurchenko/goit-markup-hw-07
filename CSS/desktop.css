@@ -1,0 +1,55 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1158px;
+  }
+
+  /* ----------------First section ------------------ */
+  .first-section-title {
+    font-size: 56px;
+    line-height: 1.07;
+    width: 496px;
+    margin-bottom: 48px;
+  }
+  .first-section {
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
+  /* --------------- section Our Team --------------- */
+  .team-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  .team-card {
+    flex-basis: calc((100% - 72px) / 4);
+  }
+  .team-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  /* ------------section benefit----------------- */
+  .benefit-list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  .benefit-list-text {
+    font-weight: 400;
+  }
+  .section-benefit {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .benefit-item {
+    width: calc((100% - 72px) / 4);
+  }
+
+  /* ---------------CUSTOMERS----------------- */
+  .customers-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .customers-item {
+    width: calc((100% - 120px) / 6);
+  }
+}
