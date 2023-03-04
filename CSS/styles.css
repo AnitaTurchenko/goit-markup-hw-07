@@ -233,7 +233,7 @@ header .logo {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images1/peopleoffice.jpg);
+    url(../images1/background-mobile.jpg);
   background-size: cover;
   background-position: center;
   max-width: 1440px;
@@ -242,6 +242,18 @@ header .logo {
   padding-top: 112px;
   padding-bottom: 112px;
   text-align: center;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .first-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images1/background-mobile-2x.jpg);
+  }
 }
 
 .btn-order-service {
