@@ -161,7 +161,7 @@ header .logo {
   background-color: #ffffff;
   padding: 24px 24px 40px 40px;
 
-  transform: translateX(100%);
+  transform: translateY(100%);
 }
 
 .mobile-menu.is-open {
