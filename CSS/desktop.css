@@ -121,4 +121,8 @@
     margin-bottom: 72px;
     gap: 24px;
   }
+  /* ------------PORTFOLIO------------ */
+  .card {
+    max-width: 360px;
+  }
 }

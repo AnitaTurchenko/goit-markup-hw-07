@@ -203,4 +203,8 @@
   .filter-btn-list {
     justify-content: center;
   }
+  /* ------------PORTFOLIO------------ */
+  .card {
+    max-width: 356px;
+  }
 }
