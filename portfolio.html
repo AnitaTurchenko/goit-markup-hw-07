@@ -35,7 +35,7 @@
               <a href="./index.html" class="header-link link">Studio</a>
             </li>
             <li class="nav-item">
-              <a href="./portfolio.html" class="header-link link current"
+              <a href="./portfolio.html" class="header-link current link"
                 >Portfolio</a
               >
             </li>
@@ -58,6 +58,91 @@
             </li>
           </ul>
         </address>
+        <button class="humburger-button js-open-menu button" type="button">
+          <svg width="32" height="22">
+            <use href="./images1/symbol-defs.svg#icon-hamburger"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mobile-menu js-menu-container">
+        <div class="container mobile-container-all">
+          <button
+            class="mobile-button-closer js-close-menu button"
+            type="button"
+          >
+            <svg width="8" height="8">
+              <use href="./images1/symbol-defs.svg#icon-closer"></use>
+            </svg>
+          </button>
+
+          <div class="mobile-container">
+            <nav class="mobile-menu-all-nav">
+              <ul class="mobile-menu-list list">
+                <li class="mobile-menu-item">
+                  <a href="./index.html" class="mobile-menu-link link"
+                    >Studio</a
+                  >
+                </li>
+                <li class="mobile-menu-item">
+                  <a href="./portfolio.html" class="mobile-menu-link link"
+                    >Portfolio</a
+                  >
+                </li>
+                <li class="mobile-menu-item">
+                  <a href="" class="mobile-menu-link link current">Contacts</a>
+                </li>
+              </ul>
+            </nav>
+            <address class="mobile-menu-address">
+              <ul class="mobile-menu-address-list list">
+                <li>
+                  <a href="tel:+110001111111" class="link mobile-menu-phone"
+                    >+11 (000) 111-11-11</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="mailto:info@devstudio.com"
+                    class="link mobile-menu-email"
+                    >info@devstudio.com</a
+                  >
+                </li>
+              </ul>
+              <ul class="list social-list">
+                <li class="social-item">
+                  <a class="social-link link" href="">
+                    <svg width="24" height="24" class="social-icon">
+                      <use
+                        href="./images1/symbol-defs.svg#icon-instagram"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-item">
+                  <a class="social-link link" href="">
+                    <svg width="24" height="24" class="social-icon">
+                      <use href="./images1/symbol-defs.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-item">
+                  <a class="social-link link" href="">
+                    <svg width="24" height="24" class="social-icon">
+                      <use href="./images1/symbol-defs.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-item">
+                  <a class="social-link link" href="">
+                    <svg width="24" height="24" class="social-icon">
+                      <use href="./images1/symbol-defs.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </address>
+          </div>
+        </div>
       </div>
     </header>
     <main>
@@ -304,51 +389,54 @@
 
     <footer class="footer">
       <div class="container footer-container">
-        <div>
-          <a class="link logo" href="./index.html"
-            ><span class="web">Web</span>Studio</a
-          >
-          <p class="footer-text">
-            Increase the flow of customers and sales for your business with
-            digital marketing & growth solutions.
-          </p>
-        </div>
-        <div class="companies">
-          <p class="companies-text">Social media</p>
-          <ul class="list social-list">
-            <li class="social-item">
-              <a class="social-link link" href="">
-                <svg width="24" height="24" class="social-icon">
-                  <use href="./images1/symbol-defs.svg#icon-instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-item">
-              <a class="social-link link" href="">
-                <svg width="24" height="24" class="social-icon">
-                  <use href="./images1/symbol-defs.svg#icon-twitter"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-item">
-              <a class="social-link link" href="">
-                <svg width="24" height="24" class="social-icon">
-                  <use href="./images1/symbol-defs.svg#icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-item">
-              <a class="social-link link" href="">
-                <svg width="24" height="24" class="social-icon">
-                  <use href="./images1/symbol-defs.svg#icon-linkedin"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
+        <div class="footer-wrap">
+          <div class="footer-logo-text">
+            <a class="link logo" href="./index.html"
+              ><span class="web">Web</span>Studio</a
+            >
+            <p class="footer-text">
+              Increase the flow of customers and sales for your business with
+              digital marketing & growth solutions.
+            </p>
+          </div>
+          <div class="companies">
+            <p class="companies-text">Social media</p>
+            <ul class="list social-list">
+              <li class="social-item">
+                <a class="social-link link" href="">
+                  <svg width="24" height="24" class="social-icon">
+                    <use href="./images1/symbol-defs.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-item">
+                <a class="social-link link" href="">
+                  <svg width="24" height="24" class="social-icon">
+                    <use href="./images1/symbol-defs.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-item">
+                <a class="social-link link" href="">
+                  <svg width="24" height="24" class="social-icon">
+                    <use href="./images1/symbol-defs.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-item">
+                <a class="social-link link" href="">
+                  <svg width="24" height="24" class="social-icon">
+                    <use href="./images1/symbol-defs.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
         <form class="footer-form">
-          <p class="subscribe-text">Subscribe</p>
-          <div class="footer-button-wrap">
+          <div class="footer-subscribe-input">
+            <p class="subscribe-text">Subscribe</p>
+
             <input
               class="subscribe-input"
               name="user-email"
@@ -356,16 +444,17 @@
               placeholder="E-mail"
               required
             />
-
-            <button class="subscribe-button button" type="submit">
-              Subscribe
-              <svg class="subscribe-icon" width="24" height="20">
-                <use href="./images1/symbol-defs.svg#icon-send"></use>
-              </svg>
-            </button>
           </div>
+
+          <button class="subscribe-button button" type="submit">
+            Subscribe
+            <svg class="subscribe-icon" width="24" height="20">
+              <use href="./images1/symbol-defs.svg#icon-send"></use>
+            </svg>
+          </button>
         </form>
       </div>
     </footer>
+    <script defer src="./js/mobile-menu.js"></script>
   </body>
 </html>

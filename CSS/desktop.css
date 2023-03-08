@@ -2,7 +2,27 @@
   .container {
     max-width: 1158px;
   }
-
+  /* -----------------    NAVIGATION------------ */
+  header .logo {
+    margin-right: 76px;
+  }
+  .address-list {
+    flex-direction: row;
+    gap: 40px;
+  }
+  .address {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .address-list .address-link {
+    color: var(--primary-text-color);
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
   /* ----------------First section ------------------ */
   .first-section-title {
     font-size: 56px;
@@ -67,5 +87,25 @@
   }
   .customers-item {
     width: calc((100% - 120px) / 6);
+  }
+
+  /* ---------------MODAL--------------------- */
+  .modal {
+    height: 100%;
+  }
+  /* ---------------FOOTER-------------------- */
+  footer .container {
+    max-width: 1158px;
+  }
+  .footer-container {
+    flex-direction: row;
+    align-items: baseline;
+  }
+  .social-list {
+    gap: 16px;
+  }
+  .footer-wrap {
+    gap: 120px;
+    margin-right: 80px;
   }
 }

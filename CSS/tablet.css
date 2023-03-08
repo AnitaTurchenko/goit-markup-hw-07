@@ -14,22 +14,44 @@
     display: inline-block;
   }
 
+  .header-container {
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 16px;
+  }
+
+  header .logo {
+    margin-right: 120px;
+  }
+
   .header-link {
     padding-top: 24px;
     padding-bottom: 24px;
   }
 
   .address {
+    font-style: normal;
     display: block;
     font-family: inherit;
-    font-size: 16px;
-    line-height: 1.5;
+    font-size: 12px;
+    line-height: 1.17;
     letter-spacing: 0.02em;
   }
 
   .address-list {
     display: flex;
-    gap: 40px;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .address-list .address-link {
+    color: var(--primary-text-color);
+
+    display: block;
+    padding: 0;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .navigation .link {
@@ -66,16 +88,6 @@
     position: absolute;
     left: 0;
     bottom: 0;
-  }
-
-  .address-list .address-link {
-    color: var(--primary-text-color);
-    display: block;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .address-list .address-link:hover,
@@ -149,5 +161,43 @@
   }
   .customers-list {
     column-gap: 24px;
+  }
+  /* --------------MODAL------------------- */
+  .modal {
+    padding: 24px;
+    width: 100%;
+    height: 90%;
+    max-width: 408;
+  }
+  /* -----------------FOOTER----------------- */
+  .footer-wrap {
+    display: flex;
+    gap: 24px;
+    width: 100%;
+  }
+  .footer-form {
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 24px;
+  }
+  .footer-logo-text {
+    margin-bottom: 0;
+  }
+  .footer-subscribe-input {
+    align-items: start;
+    margin-bottom: 0;
+    max-width: 264px;
+  }
+  footer .container {
+    max-width: 582px;
+  }
+  .logo {
+    align-self: start;
+  }
+  .companies {
+    align-items: start;
+  }
+  .subscribe-input {
+    width: 264px;
   }
 }
