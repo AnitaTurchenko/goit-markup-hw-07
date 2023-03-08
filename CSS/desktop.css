@@ -108,4 +108,17 @@
     gap: 120px;
     margin-right: 80px;
   }
+  /* ------------------PORTFOLIO-------------- */
+  .portfolio-section {
+    padding-top: 96px;
+    padding-bottom: 120px;
+  }
+  .list .filter-button {
+    padding: 12px 24px;
+  }
+  .filter-btn-list {
+    justify-content: center;
+    margin-bottom: 72px;
+    gap: 24px;
+  }
 }

@@ -200,4 +200,7 @@
   .subscribe-input {
     width: 264px;
   }
+  .filter-btn-list {
+    justify-content: center;
+  }
 }
