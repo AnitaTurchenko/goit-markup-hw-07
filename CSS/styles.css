@@ -47,7 +47,6 @@ img {
 .container {
   margin-left: auto;
   margin-right: auto;
-  min-width: 320px;
   max-width: 428px;
   padding-left: 15px;
   padding-right: 15px;
@@ -121,7 +120,6 @@ header .logo {
 
 .all-nav {
   display: flex;
-  margin-right: auto;
 }
 
 .navigation.list {
@@ -214,7 +212,7 @@ header .logo {
   color: var(--hover-color);
 }
 .mobile-menu-address {
-  padding-bottom: 40px;
+  margin-bottom: 40px;
   font-style: normal;
 }
 .mobile-menu-address-list {
@@ -336,7 +334,7 @@ header .logo {
 .benefit-list {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 72px;
 }
 
 .benefit-list-title {
@@ -628,7 +626,7 @@ footer .logo {
 
 .subscribe-input {
   /* width: 264px; */
-  width: 90%;
+  width: 100%;
   height: 40px;
   padding-left: 16px;
   padding-top: 8px;
@@ -977,6 +975,9 @@ footer .logo {
   background-image: url(../images1/check.svg);
   background-repeat: no-repeat;
   background-position: center;
+}
+.modal-label-checkbox::before {
+  flex-shrink: 0;
 }
 
 .modal-checkbox {

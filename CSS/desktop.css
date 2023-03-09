@@ -69,6 +69,9 @@
     font-size: 20px;
     line-height: 1.2;
   }
+  .benefit-list {
+    gap: 24px;
+  }
   .benefit-list-text {
     font-weight: 400;
   }
@@ -104,9 +107,13 @@
   .social-list {
     gap: 16px;
   }
+  .footer-form {
+    width: auto;
+  }
   .footer-wrap {
     gap: 120px;
-    margin-right: 80px;
+    margin-right: auto;
+    margin-bottom: 0;
   }
   /* ------------------PORTFOLIO-------------- */
   .portfolio-section {

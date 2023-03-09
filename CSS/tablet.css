@@ -41,7 +41,7 @@
   .address-list {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 6px;
   }
 
   .address-list .address-link {
@@ -156,6 +156,10 @@
   }
 
   /* ---------------CUSTOMERS----------------- */
+  .customers-section {
+    max-width: 582px;
+    margin: 0 auto;
+  }
   .customers-item {
     width: calc((100% - 48px) / 3);
   }
@@ -173,7 +177,6 @@
   .footer-wrap {
     display: flex;
     gap: 24px;
-    width: 100%;
   }
   .footer-form {
     flex-direction: row;
